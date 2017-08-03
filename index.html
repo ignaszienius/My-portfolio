@@ -5,7 +5,9 @@
 	<meta charset="utf-8">
 	<style>
 	.nuorodos {
-		color:red
+		color:red;
+		border:5px;
+		border-radius: 5px
 	}
 	.paragrafai {
 		text-align: left
@@ -13,13 +15,35 @@
 	.lenteles {
 		width: 30%;
 		text-align: center;
+		border:3px;
+		border-radius: 5px
 	}
+	.A {background-color: yellow
+
+	}
+	.B {background-color: green
+
+	}
+	.C {background-color: red
+
+	}
+	.bendras {
+		height: 50px;
+		width: 33%;
+		float: left
+
+
+	}
+
 	td {
 		font-size: 20px;
-		background-color:white;
+		background-color:rgba(50,80,100,0.5);
 		border-spacing: 10px;
 		border:2px solid black;
 
+	}
+	thead {
+		background-color:rgba(60,90,110,1)
 	}
 	body {
 		background-color: grey
@@ -47,22 +71,27 @@
 <li>Gargalis</li>
 </ol>
 <table class="lenteles">
+<thead>
 <tr>
-	<td>1</td>
-	<td>2</td>
-	<td>3</td>
+	<td>A</td>
+	<td>B</td>
+	<td>C</td>
 </tr>
+</thead>
+<tbody>
 <tr>
-	<td>4</td>
-	<td>5</td>
-	<td>6</td>
+	<td colspan="2">4</td>
+	<td rowspan="2">6</td>
 </tr>
 <tr>
 	<td>7</td>
 	<td>8</td>
-	<td>9</td>
 </tr>
+</tbody>
 </table>
+<div class="A bendras"> Blokas 1 </div>
+<div class="B bendras"> Blokas 2 </div>
+<div class="C bendras"> Blokas 3 </div>
 
 </body>
 </html>
