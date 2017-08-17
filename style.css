@@ -1,3 +1,4 @@
+
 	h1 {
 		font-family: 'Lobster', cursive;
 		font-size: 50px
@@ -20,6 +21,10 @@
 		border-style: solid;
 		border-color: black;
 		border-radius: 20px;
-		text-align: center;
-		text-decoration: none;
+		text-align: center; 
+		color: red;
+	}
+
+	a {
+		text-decoration: none ! important;
 	}
