@@ -3,66 +3,45 @@
 <head>
 	<title>My portfolio</title>
 	<meta charset="utf-8">
-	<style>
-	.header {
-		background: -webkit-linear-gradient(top, #5d6c0a -1%,#e0eaa8 0%,#5d6c0a 0%,#738319 50%,#a9b757 100%);
-		overflow: hidden
-		
-	}
-	.navigation {
-		float: left;
-		padding: 0px 30px 0px 30px;
-		margin: 0px 0px 10px 10px;
-		border: 5px;
-		border-style: solid;
-		border-radius: 30px;
-		text-align: center;
-		text-decoration: none;
-		background-color: green
-
-	}
-	.bodis {
-		background: -webkit-linear-gradient(top, #cdeb8e 0%,#a5c956 100%);
-		display: inline-block;
-		width: 1000px;
-		height: 1000px
-
-	}
-
-	@font-face {
-		font-family: "voth";
-		src:url(voth.ttf);
-	}
-
-	h1 {
-		font-family: voth;
-		font-size: 50px
-	}
-
-	body {
-		width: 1000px
-	}
-
-	p {
-
-	}
-
-	</style>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div class="header">
-	<h1>Igno Zieniaus portfolio</h1>
-	<a class="navigation" href="index.html"><h2>About me</h2></a>
-	<a class="navigation" href="music.html"><h2>Music</h2></a>
-	<a class="navigation" href="contact.html"><h2>Contact</h2></a>
-</div>
-<div class="bodis">
-<h2>Music</h2>
-<p>Čia pateikiau kelis man patinkančius muzikos kūrinius</p>
-<h2> Aphex Twin - Avril 14th</h2>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/PeLuQ6X2ixI"></iframe>
-<h2>Vaughan Mason & Crew - Bounce, Rock, Skate, Roll</h2>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/4j2WnpIYr5g?list=PLA6oRvVbWjKJMlHTFTqPvRb404kqzC82C"></iframe>
-</div>
+	<div class="container">
+		<div class="row bg-warning">	
+					<div class="col-lg-12">
+						<h1>Igno Zieniaus portfolio</h1>
+					</div>
+		</div>			
+		<div class="row bg-warning">
+					<div class="col-lg-12">
+							<div class="col-lg-4">
+								<a href="index.html"><h2>About me</h2></a>
+							</div>
+							<div class="col-lg-4">
+								<a href="music.html"><h2>Music</h2></a>
+							</div>
+							<div class="col-lg-4">
+								<a href="contact.html"><h2>Contact</h2></a>
+							</div>	
+					</div>	
+		</div>	
+		<div class="row bg-success">
+			<div class="col-lg-12">
+				<h3>Music<i class="fa fa-music" aria-hidden="true"></i></h3>
+				<p>Čia pateikiau kelis man patinkančius muzikos kūrinius</p>
+				<h3> Aphex Twin - Avril 14th</h3>
+				<iframe src="https://www.youtube.com/embed/PeLuQ6X2ixI"></iframe>
+				<h3>Vaughan Mason & Crew - Bounce, Rock, Skate, Roll</h3>
+				<iframe src="https://www.youtube.com/embed/4j2WnpIYr5g?list=PLA6oRvVbWjKJMlHTFTqPvRb404kqzC82C"></iframe>
+			</div>	
+		</div>
+	</div>
 </body>
 </html>
+
+
+
+
